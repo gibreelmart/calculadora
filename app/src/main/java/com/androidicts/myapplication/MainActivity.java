@@ -28,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
     private Button btnResta;
     private Button btnIgual;
     private String contador;
+    e
 
 
    @Override
