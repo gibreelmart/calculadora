@@ -28,8 +28,6 @@ public class MainActivity extends AppCompatActivity {
     private Button btnResta;
     private Button btnIgual;
     private String contador;
-    e
-
 
    @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -54,7 +52,9 @@ public class MainActivity extends AppCompatActivity {
        btnResta = (Button) findViewById(R.id.btnResta);
        btnIgual = (Button) findViewById(R.id.btnIgual);
        contador = "";
-       List list;
+
+
+
        btn1.setOnClickListener(new View.OnClickListener() {
            @Override
            public void onClick(View v) {
